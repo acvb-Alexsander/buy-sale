@@ -1,4 +1,4 @@
-import { PageList } from './page-list';
+import { PageList } from './interface/page-list';
 
 export const fakeListings: PageList[] = [
   {
