@@ -1,6 +1,7 @@
 div h1{
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 
 div a{
@@ -8,9 +9,4 @@ div a{
     text-decoration: none;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-div a:hover{
-    color: rgb(117, 117, 196);
-    text-decoration: underline;
 }
