@@ -1,0 +1,9 @@
+<div class="content-box">
+  <a routerLink="/page-list/"> Back</a>
+  <h2>{{ listing.title }}</h2>
+  <p>{{ listing.description }}</p>
+  <p>{{ listing.price | currency: "USD" }}</p>
+  <a routerLink="contate-page/{{ listing.id }}">
+    <button typer="button">Contact Seller</button>
+  </a>
+</div>
