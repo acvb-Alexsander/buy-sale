@@ -1,0 +1,12 @@
+div h1{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div a{
+    color: rgb(163, 163, 234);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}

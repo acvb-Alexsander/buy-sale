@@ -1,0 +1,9 @@
+<div>
+  @for (detailList of listing; track detailList.id) {
+    <div class="content-box">
+      <a routerLink="/page-list/{{ detailList.id }}">
+        <h3>{{ detailList?.title }} -$ {{ detailList?.price }}</h3>
+      </a>
+    </div>
+  }
+</div>
